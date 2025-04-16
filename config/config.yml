@@ -1,0 +1,11 @@
+app:
+  port: 9999
+db:
+  host: db
+  port: 5432
+  pass: postgres
+  name: postgres
+kafka:
+  brokers: "kafka:9092"
+  topic: "polls"
+  group: "vote-consumers"
